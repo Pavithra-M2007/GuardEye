@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Mode - Guard Eye</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="cyber-background">
+        <div class="grid-overlay"></div>
+        <div class="scan-line"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⬢</span>
+                <span class="logo-text">GUARD EYE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="authority.html">Authority Mode</a></li>
+                <li><a href="research.html" class="active">Research Mode</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="research-main">
+        <div class="page-header">
+            <h1 class="page-title">Research Mode</h1>
+            <p class="page-subtitle">Global CCTV Vulnerability Trends & Analytics</p>
+        </div>
+
+        <div class="research-grid">
+            <div class="glass-panel world-map-section">
+                <h2 class="section-title">
+                    <span class="title-icon">🌍</span>
+                    Global Threat Distribution
+                </h2>
+                <div class="world-map">
+                    <canvas id="worldMapChart"></canvas>
+                </div>
+            </div>
+
+            <div class="glass-panel stats-overview">
+                <h2 class="section-title">Global Statistics</h2>
+                <div class="global-stats">
+                    <div class="global-stat-item">
+                        <div class="stat-number pulse-red">2.4M</div>
+                        <div class="stat-desc">Exposed Cameras Worldwide</div>
+                    </div>
+                    <div class="global-stat-item">
+                        <div class="stat-number pulse-orange">67%</div>
+                        <div class="stat-desc">Using Outdated Firmware</div>
+                    </div>
+                    <div class="global-stat-item">
+                        <div class="stat-number pulse-yellow">847K</div>
+                        <div class="stat-desc">Default Credentials Active</div>
+                    </div>
+                    <div class="global-stat-item">
+                        <div class="stat-number pulse-green">12.3K</div>
+                        <div class="stat-desc">New Vulnerabilities (2024)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-panel">
+                <h2 class="section-title">
+                    <span class="title-icon">🔧</span>
+                    Commonly Exploited Firmware
+                </h2>
+                <canvas id="firmwareChart"></canvas>
+            </div>
+
+            <div class="glass-panel">
+                <h2 class="section-title">
+                    <span class="title-icon">📊</span>
+                    Emerging Risk Predictions
+                </h2>
+                <canvas id="riskPredictionChart"></canvas>
+            </div>
+
+            <div class="glass-panel">
+                <h2 class="section-title">
+                    <span class="title-icon">🤖</span>
+                    ML-Based Anomaly Trends
+                </h2>
+                <canvas id="anomalyChart"></canvas>
+            </div>
+
+            <div class="glass-panel vulnerability-types">
+                <h2 class="section-title">Top Vulnerability Types</h2>
+                <div class="vuln-list">
+                    <div class="vuln-item">
+                        <div class="vuln-bar" style="width: 85%; background: var(--neon-red);"></div>
+                        <span class="vuln-label">Default Credentials</span>
+                        <span class="vuln-percent">85%</span>
+                    </div>
+                    <div class="vuln-item">
+                        <div class="vuln-bar" style="width: 72%; background: var(--neon-orange);"></div>
+                        <span class="vuln-label">Outdated Firmware</span>
+                        <span class="vuln-percent">72%</span>
+                    </div>
+                    <div class="vuln-item">
+                        <div class="vuln-bar" style="width: 68%; background: var(--neon-yellow);"></div>
+                        <span class="vuln-label">Weak Encryption</span>
+                        <span class="vuln-percent">68%</span>
+                    </div>
+                    <div class="vuln-item">
+                        <div class="vuln-bar" style="width: 54%; background: var(--neon-blue);"></div>
+                        <span class="vuln-label">Open Ports</span>
+                        <span class="vuln-percent">54%</span>
+                    </div>
+                    <div class="vuln-item">
+                        <div class="vuln-bar" style="width: 41%; background: var(--neon-green);"></div>
+                        <span class="vuln-label">Buffer Overflow</span>
+                        <span class="vuln-percent">41%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="disclaimer glass-panel">
+            <p>⚠️ All data shown is simulated for ethical research use only. This platform is designed for security assessment and educational purposes.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="research.js"></script>
+</body>
+</html>

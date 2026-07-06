@@ -1,0 +1,78 @@
+Create a cybersecurity-themed front-end web application prototype called "Guard Eye” — a demo interface for an Automated Vulnerability Assessment and Penetration Testing tool for CCTV cameras and DVR systems.
+
+The website should look futuristic, dark-themed, and inspired by cybersecurity dashboards, using neon blue, green, and black tones with glowing hover effects, soft animations, and a cyber lab feel.
+
+🔐 Pages and Features to Include:
+
+1. Home Page:
+
+Title: “Guard Eye” with a glowing animated heading.
+
+Subtitle/Tagline: “Watching over the watchers-Securing every digital eye..”
+
+Two large glowing buttons at the center:
+
+Authority Mode
+
+Research Mode
+
+Animated cyber map or network lines background.
+
+2. Authority Mode Page:
+
+Add an “Add Camera” section where users can input dummy details like Camera ID, IP Address, Model, and Firmware.
+
+Display the added cameras in a modern table or card view.
+
+Add buttons for actions such as:
+
+Run Scan (simulate pentesting or vulnerability check animation)
+
+View Report (show sample dummy vulnerability data: “Open Port Detected,” “Outdated Firmware,” etc.)
+
+Include small progress animations or scanning bars for realism.
+
+Add a mini dashboard showing dummy data (like total cameras scanned, risk level chart, vulnerabilities found, etc.).
+
+3. Research Mode Page:
+
+Display global CCTV vulnerability trends (use dummy stats and charts).
+
+Include sections like:
+
+“Commonly Exploited Firmware”
+
+“Emerging Risk Predictions”
+
+“ML-based Anomaly Trends”
+
+Add a visual world map or glowing graph to represent global CCTV data analytics.
+
+Mention at the bottom: “All data shown is simulated for ethical research use only.”
+
+4. About Page:
+
+Explain briefly what the tool does, its ethical use, and how it helps secure CCTV networks through AI and penetration testing.
+
+5. Navbar and Styling:
+
+Transparent glass-like navbar with links to Home, Authority Mode, Research Mode, and About.
+
+Use smooth hover glow effects, neon borders, and cyber-inspired fonts (like Orbitron or Rajdhani).
+
+Add interactive button sounds or glow effects when clicked.
+
+🧠 Design Requirements:
+
+Use HTML, CSS, and JavaScript only (no backend).
+
+Include small animated transitions and cyber glow effects for engagement.
+
+Add simple JavaScript or Chart.js for visual charts.
+
+Fully responsive and suitable for screen recording demos.
+
+The focus is on visual presentation and interactivity, not backend functionality.
+The prototype should visually represent both modes and clearly convey the cybersecurity and research focus of the project.
+
+Name the project:GUARD EYE
